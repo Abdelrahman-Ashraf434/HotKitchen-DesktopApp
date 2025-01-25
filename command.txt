@@ -1,0 +1,1 @@
+pyinstaller --noconsole --onefile --add-data "ConfigDesktopApp.txt;." --add-data ".env;." --add-data "styles.qss;." --add-data "Images;Images" --exclude-module=tkinter --exclude-module=unittest --upx-dir=upx HotFoodSectionApp.py

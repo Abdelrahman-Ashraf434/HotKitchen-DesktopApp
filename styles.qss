@@ -1,0 +1,61 @@
+/* General QPushButton Style */
+QPushButton {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #28a745; /* Green */
+    border: 2px solid #1e7e34; /* Darker Green Border */
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+QPushButton:hover {
+    background-color: #218838; /* Slightly darker on hover */
+}
+
+QPushButton:pressed {
+    background-color: #1e7e34;
+}
+
+/* Specific button sizes */
+QPushButton#productButton {
+    font-size: 12px;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+/* Cart List Styles */
+QListWidget {
+    background-color: #f8f9fa;
+    color: #000000; /* Black text */
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding: 5px;
+}
+QListWidget::item:selected {
+    background-color: #28a745; /* Green for selected item */
+    color: #ffffff; /* White text when selected */
+}
+
+/* Total Label Style */
+QLabel {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QLabel#cartTitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QScrollArea {
+    border: none;
+    background-color: #222;
+}
+
+QMainWindow {
+    background-color: #111;
+}
